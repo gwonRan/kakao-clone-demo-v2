@@ -1,0 +1,13 @@
+.friends .friends__puls {
+  margin: 20px 0px;
+  padding: 20px 0px;
+  border-bottom: 2px solid #f7f7f7;
+  border-top: 2px solid #f7f7f7;
+}
+
+.friends__list .friends_title,
+.friends__puls .friends__title {
+  font-size: 13px;
+  opacity: 0.6;
+  margin-bottom: 12px;
+}
