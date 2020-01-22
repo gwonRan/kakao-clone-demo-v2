@@ -2,7 +2,36 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 15px;
 }
+
+.friend__group {
+    margin-right: 10px;
+    width: 64px;
+    height: 58px;
+}
+
+.friend__group:first-child {
+  position: relative;
+
+}
+
+.friend__group1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 64px;
+  height: 58px;
+  flex-direction: column;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.friend__group .four__size {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
 
 .friend .friend_person {
   width: 50px;
@@ -15,6 +44,16 @@
 
 .friend_person.m-person {
   width: 60px;
+}
+
+.friend_person.s-person {
+  width: 38px;
+}
+
+.ss-person {
+  width: 25px;
+  margin: 1px;
+  border-radius: 10px;
 }
 
 .friend .friend__column {

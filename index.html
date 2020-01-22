@@ -12,38 +12,94 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">13:56</span>
-      </div>
-      <div class="status-bar__column">
-        <i class="far fa-clock"></i>
-        <i class="far fa-bell-slash"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">65%</span>
-        <i class="fas fa-battery-half"></i>
-      </div>
+    <div class="header-wrapper">
+        <div class="status-bar">
+          <div class="status-bar__column">
+            <span class="status-bar__clock">13:56</span>
+          </div>
+          <div class="status-bar__column">
+            <i class="far fa-clock"></i>
+            <i class="far fa-bell-slash"></i>
+            <i class="fas fa-wifi"></i>
+            <span class="status-bar__battery-level">65%</span>
+            <i class="fas fa-battery-half"></i>
+          </div>
+        </div>
+        <header class="header">
+          <div class="header__header-column">
+            <h1 class="header__title">Chats</h1>
+          </div>
+          <div class="header__header-column">
+            <span class="header__icon">
+              <i class="fas fa-search"></i>
+            </span>
+            <span class="header__icon">
+              <i class="far fa-comment"></i>
+            </span>
+            <span class="header__icon">
+              <i class="fas fa-cog"></i>
+            </span>
+          </div>
+        </header>
     </div>
-    <header class="header">
-      <div class="header__header-column">
-        <h1 class="header__title">Chats</h1>
-      </div>
-      <div class="header__header-column">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        </span>
-        <span class="header__icon">
-          <i class="far fa-comment"></i>
-        </span>
-        <span class="header__icon">
-          <i class="fas fa-cog"></i>
-        </span>
-      </div>
-    </header>
     <main class="chats">
       <ul class="chats__list">
-        <li class="chats__chat chat">
-          <a href="chat.html">
+            <li class="chats__chat chat">
+              <a href="chat.html">
+                <div class="chat__chat friend friend--lg">
+                  <div class="friend__column">
+                    <img src="img/pic.jpg" alt="" class="m-person friend_person" />
+                    <div class="friend__content">
+                      <span class="friend__name">Miran</span>
+                      <span class="friend_bottem-text">wow!</span>
+                    </div>
+                  </div>
+                  <div class="freind__column">
+                    <div class="friend__now-listening">
+                      <span class="chat__timestamp">Jan 25</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="chats__chat chat">
+                <div class="chat__chat friend friend--lg">
+                  <div class="friend__column">
+                    <div class="friend__group1">
+                      <img src="img/pic.jpg" alt="" class="ss-person" />
+                      <img src="img/pic.jpg" alt="" class="ss-person two__size" />
+                      <img src="img/pic.jpg" alt="" class="ss-person two__size" />
+                      <img src="img/pic.jpg" alt="" class="ss-person two__size" />
+                    </div>
+                    <div class="friend__content">
+                      <span class="friend__name">Miran</span>
+                      <span class="friend_bottem-text">wow!</span>
+                    </div>
+                  </div>
+                  <div class="freind__column">
+                    <div class="friend__now-listening">
+                      <span class="chat__timestamp">Jan 22</span>
+                    </div>
+                  </div>
+                </div>
+            </li>
+            <li class="chats__chat chat">
+              <div class="chat__chat friend friend--lg">
+                <div class="friend__column">
+                  <img src="img/pic.jpg" alt="" class="m-person friend_person" />
+                  <div class="friend__content">
+                    <span class="friend__name">Miran</span>
+                    <span class="friend_bottem-text">wow!</span>
+                  </div>
+                </div>
+                <div class="freind__column">
+                  <div class="friend__now-listening">
+                    <span class="chat__timestamp">Jan 22</span>
+                  </div>
+                </div>
+              </div>
+          </li>
+          <li class="chats__chat chat">
             <div class="chat__chat friend friend--lg">
               <div class="friend__column">
                 <img src="img/pic.jpg" alt="" class="m-person friend_person" />
@@ -54,11 +110,61 @@
               </div>
               <div class="freind__column">
                 <div class="friend__now-listening">
-                  <span class="chat__timestamp">March 8</span>
+                  <span class="chat__timestamp">Jan 22</span>
                 </div>
               </div>
             </div>
-          </a>
+        </li>
+        <li class="chats__chat chat">
+          <div class="chat__chat friend friend--lg">
+            <div class="friend__column">
+              <img src="img/pic.jpg" alt="" class="m-person friend_person" />
+              <div class="friend__content">
+                <span class="friend__name">Miran</span>
+                <span class="friend_bottem-text">wow!</span>
+              </div>
+            </div>
+            <div class="freind__column">
+              <div class="friend__now-listening">
+                <span class="chat__timestamp">Jan 22</span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="chats__chat chat">
+          <div class="chat__chat friend friend--lg">
+            <div class="friend__column">
+              <div class="friend__group">
+                <img src="img/pic.jpg" alt="" class="s-person friend_person" />
+                <img src="img/pic.jpg" alt="" class="s-person friend_person four__size" />
+              </div>
+              <div class="friend__content">
+                <span class="friend__name">Miran</span>
+                <span class="friend_bottem-text">Merry christmas!</span>
+              </div>
+            </div>
+            <div class="freind__column">
+              <div class="friend__now-listening">
+                <span class="chat__timestamp">Dec 25</span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="chats__chat chat">
+          <div class="chat__chat friend friend--lg">
+            <div class="friend__column">
+              <img src="img/pic.jpg" alt="" class="m-person friend_person" />
+              <div class="friend__content">
+                <span class="friend__name">Miran</span>
+                <span class="friend_bottem-text">wow!</span>
+              </div>
+            </div>
+            <div class="freind__column">
+              <div class="friend__now-listening">
+                <span class="chat__timestamp">Jan 22</span>
+              </div>
+            </div>
+          </div>
         </li>
       </ul>
     </main>
@@ -88,7 +194,7 @@
       </ul>
     </nav>
       <div class="bigsreen">
-        <span class="bigScreen__text">Screen is big, Please make your screen small!</span>
+        <span class="bigScreen__text">Screen is big, Please make your screen small</span>
       </div>
   </body>
 </html>
