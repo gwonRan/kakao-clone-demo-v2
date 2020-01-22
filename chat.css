@@ -168,6 +168,7 @@
   display: block;
   font-weight: 500;
   font-size: 13px;
+  color: whitesmoke;
 }
 
 .incoming-message .message__bubble {
